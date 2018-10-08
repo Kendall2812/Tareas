@@ -1,5 +1,6 @@
 <?php
-$lista = array();
+
+
 $fila = 0;
 if (($gestor = fopen("products.csv", "r")) !== FALSE) {
     while (($datos = fgetcsv($gestor, 1000, ",")) !== FALSE) {
