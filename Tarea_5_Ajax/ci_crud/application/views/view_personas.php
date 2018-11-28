@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learn PHP CodeIgniter Framework with AJAX and Bootstrap</title>
+    <title>Crud Personas</title>
     <link href="<?php echo base_url('assests/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assests/datatables/css/dataTables.bootstrap.css')?>" rel="stylesheet">
   </head>
@@ -25,8 +25,7 @@
 					<th>Nombre</th>
 					<th>Apellido</th>
 					<th>Telefono</th>
-          <th style="width:125px;">Action
-          </p></th>
+          <th style="width:125px;">Action</p></th>
         </tr>
       </thead>
       <tbody>

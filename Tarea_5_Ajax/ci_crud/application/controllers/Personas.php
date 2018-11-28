@@ -3,12 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Personas extends CI_Controller {
 
-	 public function __construct()
-	 	{
-	 		parent::__construct();
-			$this->load->helper('url');
-	 		$this->load->model('persona_model');
-	 	}
+	public function __construct()
+	{
+	 	parent::__construct();
+		$this->load->helper('url');
+	 	$this->load->model('persona_model');
+	}
 
 
 	public function index()
@@ -30,7 +30,6 @@ class Personas extends CI_Controller {
 
 	public function person_delete($id)
 	{
-
 		$this->persona_model->delete_by_id($id);
 		echo json_encode(array("status" => TRUE));
 	}
